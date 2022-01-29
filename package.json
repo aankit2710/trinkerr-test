@@ -1,0 +1,19 @@
+{
+  "name": "trinkerr-test",
+  "version": "1.0.0",
+  "description": "this is the test for trinker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aankit2710/trinkerr-test.git"
+  },
+  "author": "Ankit Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aankit2710/trinkerr-test/issues"
+  },
+  "homepage": "https://github.com/aankit2710/trinkerr-test#readme"
+}
