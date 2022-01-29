@@ -5,14 +5,13 @@ const eliminatingTheUnwanted = (inputStrng, unwant) => {
 
     do {
         var textSearch = newString.search(unwant);
-        console.log(textSearch);
-        newString = newString.slice(textSearch, textSearch + unwantLength);
-        console.log(newString);
+        const temp1= newString.slice(0, textSearch);
+        const temp2 = newString.slice(textSearch + unwantLength, newString.length);
+        newString = temp1+ temp2;
         textSearch = newString.search(unwant);
     } while (textSearch > 0);
 
-
-
+    return newString;
 
 }
 
